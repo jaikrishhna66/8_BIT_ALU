@@ -69,7 +69,7 @@ This project is a Verilog-based implementation of an **8-bit Arithmetic Logic Un
 
 ## 👨‍💻 Author
 
-- **M Jaikrishnar**
+- **M Jaikrishna**
 - B.Tech Final Year – Aspiring VLSI Design Engineer
 - [GitHub Profile](https://github.com/chakri2205)
 - [Gmail id](mailto:jaikrishnamurali66@gmail.com)
