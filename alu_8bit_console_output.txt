@@ -1,0 +1,189 @@
+ LIST OF OPERATIONS
+ 0.Addition
+ 1.Subtraction
+ 2.Multiplication
+ 3.Division
+ 4.Modulo Division
+ 5.Bitwise and
+ 6.Bitwise or
+ 7.Bitwise xor
+ 8.1's Complement
+ 9.2's Complement
+ 10.Relational Operators
+ 11.Right Shift
+ 12.Left Shift
+ 13.Concatenate B and A
+ 14.Concatenate A and B
+ 15.A + A
+
+---Reset test case---
+Finished circuit initialization process.
+Reset has been activated.
+
+---Reset test passed---
+Invalid Option.
+---Addition test cases---
+Addition
+
+Addition of  30 and  22 is:   52.
+
+---Addition test passed---
+Addition
+
+Addition of 255 and 255 is:  510.
+
+Carry bit set, result exceeds the 8-bit range.
+---Addition test passed---
+Addition
+
+Addition of 204 and   0 is:  204.
+
+---Addition test passed---
+Addition
+
+Addition of 170 and 187 is:  357.
+
+Carry bit set, result exceeds the 8-bit range.
+---Addition test passed---
+---Subtraction test cases---
+Subtraction of 210 and 129 is:   81.
+
+---Subtraction test passed---
+Subtraction of 196 and   0 is:  196.
+
+---Subtraction test passed---
+Subtraction of 170 and 187 is: -   17.
+
+---Subtraction test passed---
+Subtraction of  34 and  99 is: -   65.
+
+---Subtraction test passed---
+---Multiplication test cases---
+Mulltiplication of  15 and  12 is:  180
+---Multiplication test passed---
+Mulltiplication of 175 and   1 is:  175
+---Multiplication test passed---
+Mulltiplication of 222 and   0 is:    0
+---Multiplication test passed---
+Mulltiplication of 255 and 255 is:65025
+---Multiplication test passed---
+---Division test cases---
+DIvison 254/127 is:    2.
+---Division test passed---
+DIvison 230/  1 is:  230.
+---Division test passed---
+Invalid
+---Division test passed---
+---Modulo division test cases---
+Remainder of 240/ 15 is:    0.
+---Modulo Division test passed---
+Remainder of 247/200 is:   47.
+---Modulo Division test passed---
+Remainder of  78/  0 is:    X.
+---Modulo Division test passed---
+Remainder of   4/  2 is:    0.
+---Modulo Division test passed---
+---Bitwise And test cases---
+01010101 AND 01010101 is:01010101
+---Bitwise and test passed---
+11111111 AND 00000000 is:00000000
+---Bitwise and test passed---
+11111010 AND 11110000 is:11110000
+---Bitwise and test passed---
+00000001 AND 00000001 is:00000001
+---Bitwise and test passed---
+---Bitwise Or test cases---
+01010101 OR 01010101 is:01010101
+---Bitwise Or test passed---
+11111111 OR 00000000 is:11111111
+---Bitwise Or test passed---
+11111010 OR 11110000 is:11111010
+---Bitwise Or test passed---
+10101010 OR 10101010 is:10101010
+---Bitwise Or test passed---
+---Bitwise Xor test cases---
+01010101 XOR 01010101 is:00000000
+---Bitwise Xor test passed---
+11111111 XOR 00000000 is:11111111
+---Bitwise Xor test passed---
+11111010 XOR 11110000 is:00001010
+---Bitwise Xor test passed---
+11111111 XOR 11111111 is:00000000
+---Bitwise Xor test passed---
+---1's Complement test cases---
+1'Complement of 00000000 is:11111111
+---1's Complement test passed---
+1'Complement of 11111111 is:00000000
+---1's Complement test passed---
+1'Complement of 11001100 is:00110011
+---1's Complement test passed---
+1'Complement of 01010101 is:10101010
+---1's Complement test passed---
+---2's Complement test cases---
+2'Complement of 00000000 is:00000000
+Carry bit set, result exceeds the 8-bit range.
+---2's Complement test passed---
+2'Complement of 11111111 is:00000001
+---2's Complement test passed---
+2'Complement of 11001100 is:00110100
+---2's Complement test passed---
+2'Complement of 01010101 is:10101011
+---2's Complement test passed---
+---Relational Operator's test cases---
+A is equal to B i.e 126 = 126.
+---Relational Operator '=' test passed---
+A is greter then B i.e 126 > 120.
+---Relational Operator '>' test passed---
+B is greter then A i.e 181 > 141.
+---Relational Operator '<' test passed---
+A is equal to B i.e   0 =   0.
+---Relational Operator '=' test passed---
+---Rightshift test cases---
+11111111 after right shift by 1 bit:01111111
+---Rightshift test passed---
+00000000 after right shift by 1 bit:00000000
+---Rightshift test passed---
+10101010 after right shift by 1 bit:01010101
+---Rightshift test passed---
+11001100 after right shift by 1 bit:01100110
+---Rightshift test passed---
+---Leftshift test cases---
+11111111 after left shift by 1 bit:11111110
+---Leftshift test passed---
+00000000 after left shift by 1 bit:00000000
+---Leftshift test passed---
+10101010 after left shift by 1 bit:01010100
+---Leftshift test passed---
+11001100 after left shift by 1 bit:10011000
+---Leftshift test passed---
+---Concatenate B and A test cases---
+Concatenation of B and A is:1111111100000000
+---Concatenate B and A passed---
+Concatenation of B and A is:1100110010101010
+---Concatenate B and A passed---
+Concatenation of B and A is:1111111100000000
+---Concatenate B and A passed---
+Concatenation of B and A is:1111111111111111
+---Concatenate B and A passed---
+---Concatenate A and B test cases---
+Concatenation of A and B is:0000000011111111
+---Concatenate A and B passed---
+Concatenation of A and B is:1010101011001100
+---Concatenate A and B passed---
+Concatenation of A and B is:0000000011111111
+---Concatenate A and B passed---
+Concatenation of A and B is:1111111111111111
+---Concatenate A and B passed---
+---A + A---
+A + A = 0000000111111110
+Carry bit set, result exceeds the 8-bit range.
+---A + A test passed---
+A + A = 0000000000000000
+---A + A test passed---
+A + A = 0000000110011000
+Carry bit set, result exceeds the 8-bit range.
+---A + A test passed---
+A + A = 0000000101010110
+Carry bit set, result exceeds the 8-bit range.
+---A + A test passed---
+Stopped at time : 650 ns : File "//VBoxSvr/Programs_Verilog/ALU/alu_8bit_tb.v" Line 465
